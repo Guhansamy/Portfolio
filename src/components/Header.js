@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.svg";
+// import logo from "../assets/logo.svg";
 // import logo from "../"
 
 const Header = () => {
@@ -9,7 +9,10 @@ const Header = () => {
                 <div className="flex justify-between items-center">
                     {/* logo */}
                     <a href="#" className="invisible">
-                        <img src={logo} alt="" />
+                        <img
+                            src="https://karuppuchamy.sirv.com/Images/letter-g.png"
+                            alt="guhan"
+                        />
                     </a>
                     {/* button */}
                     <p className="text-gradient btn-link">Work with me</p>
