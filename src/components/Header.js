@@ -8,7 +8,7 @@ const Header = () => {
             <div className="container mx-auto">
                 <div className="flex justify-between items-center">
                     {/* logo */}
-                    <a href="#" className="invisible">
+                    <a href="#" className="invisible h-2">
                         <img
                             src="https://karuppuchamy.sirv.com/Images/letter-g.png"
                             alt="guhan"
