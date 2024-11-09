@@ -29,7 +29,7 @@ module.exports = {
                 django: "#1B9C85",
             },
             backgroundImage: {
-                site: "url('./assets/site-bg.jpg')",
+                site: "url('https://karuppuchamy.sirv.com/Images/site-bg.jpg')",
                 about: "url('./assets/about.png')",
                 services: "url('./assets/services.png')",
                 hero_pattern: "url('/assets/new3.svg)",
