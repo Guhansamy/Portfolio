@@ -40,8 +40,7 @@ const About = () => {
                             <div className="flex flex-row font-secondary pl-7">
                                 Developed a comprehensive session booking
                                 backend using Django, PostgreSQL, and integrated
-                                with Zoom for seamless meeting scheduling and
-                                management.
+                                with Zoom.
                             </div>
                         </div>
 
@@ -167,21 +166,6 @@ const About = () => {
                                     </div>
                                 </div>
                             </div>
-
-                            {/* <div>
-                                <div className="font-primary text-sm tracking-[2px]">
-                                    Leetcode Max Contest Rating
-                                </div>
-                                <div className="font-tertiary text-[40px] text-gradient mb-2">
-                                    {inView ? (
-                                        <CountUp
-                                            start={0}
-                                            end={1489}
-                                            duration={1}
-                                        />
-                                    ) : null}
-                                </div>
-                            </div> */}
                         </div>
                         {/* let end it 🤩 */}
                     </div>

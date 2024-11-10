@@ -15,7 +15,9 @@ const Header = () => {
                         />
                     </a>
                     {/* button */}
-                    <p className="text-gradient btn-link">Work with me</p>
+                    <p className="hidden lg:block text-gradient btn-link">
+                        Work with me
+                    </p>
                 </div>
             </div>
         </header>

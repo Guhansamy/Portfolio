@@ -1,12 +1,6 @@
 import React from "react";
 
-import {
-    FaGithub,
-    FaYoutube,
-    FaDribbble,
-    FaTwitter,
-    FaLinkedin,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -64,7 +58,7 @@ const Banner = () => {
                             viewport={{ once: false, amount: 0.7 }}
                             className="mb-8 max-w-lg mx-auto lg:mx-1"
                         >
-                            I'm a Full-Stack Developer and Problem Solver.
+                            I'm a CSE Student 🧑‍🎓 and like building websites .
                         </motion.p>
                         <motion.div
                             variants={fadeIn("up", 0.8)}
@@ -83,7 +77,12 @@ const Banner = () => {
                             </a>
 
                             <span className="text-gradient btn-link">
-                                My Portfolio
+                                <a
+                                    href="https://drive.google.com/file/d/1lQcdfbyF8j-gchOkc3Ti2GjVekdcYzoS/view?usp=drive_link"
+                                    target="_blank"
+                                >
+                                    My Portfolio
+                                </a>
                             </span>
                         </motion.div>
                         {/*socials*/}
@@ -92,8 +91,8 @@ const Banner = () => {
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}
-                            className="flex text-[20px] gap-x-6 max-w-max mx-auto
-                            lg:mx-0"
+                            className="hidden lg:flex text-[20px] gap-x-6 max-w-max mx-auto
+                            lg:mx-0 "
                         >
                             <a
                                 href="https://github.com/Guhansamy"
@@ -107,6 +106,12 @@ const Banner = () => {
                             >
                                 <FaLinkedin />
                             </a>
+                            <a
+                                href="mailto:guhan5936@gmail.com"
+                                target="_blank"
+                            >
+                                <FaMailBulk />
+                            </a>
                         </motion.div>
                     </div>
                     {/* image */}
@@ -115,7 +120,7 @@ const Banner = () => {
                         initial="hidden"
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.7 }}
-                        className="flex-1 lg:flex justify-center items-center max-w-[380px] banner-element"
+                        className="flex-1 lg:flex pl-8 lg:pl-1 justify-center items-center max-w-[380px] banner-element"
                     >
                         <div className="w-80 h-80 pt-3 lg:pt-0  rounded-full overflow-hidden shadow-white">
                             <img
