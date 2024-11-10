@@ -2,7 +2,7 @@ import React from "react";
 
 const Work = () => {
     return (
-        <section className="py-8 lg:py-14 pt-40 lg:pt-3" id="work">
+        <section className="py-8 lg:py-14 pt-80 lg:pt-3" id="work">
             <div className="container mx-auto">
                 <div>
                     <div className="text-center">
@@ -24,7 +24,7 @@ const Work = () => {
                                         shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30"
                         >
                             <img
-                                src="https://karuppuchamy.sirv.com/Images/Online-Mechanic-Finder.png"
+                                src="https://karuppuchamy.sirv.com/Images/Taskify.png"
                                 className="w-[330px] h-[190px]"
                             ></img>
                         </div>
@@ -32,7 +32,8 @@ const Work = () => {
                             <h1 className="font-bold text-xl ">Taskify</h1>
 
                             <p className="font-semibold text-sm">
-                                A platform for students to share data and file
+                                A platform for students to share data and file.
+                                Also can create a serperate room seperate data.
                             </p>
 
                             <div className="flex bottom-2 fixed w-[310px]">
@@ -41,7 +42,7 @@ const Work = () => {
                                         className="max-w-[30px]  overflow-hidden rounded-full
                                                     shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             "
                                     >
-                                        <a href="#">
+                                        <a href="https://github.com/Guhansamy/Taskify">
                                             <img
                                                 src="https://karuppuchamy.sirv.com/Images/github.png"
                                                 className=""
@@ -72,15 +73,19 @@ const Work = () => {
                                         shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30"
                         >
                             <img
-                                src="https://karuppuchamy.sirv.com/Images/Online-Mechanic-Finder.png"
+                                src="https://karuppuchamy.sirv.com/Images/ATN.png"
                                 className="w-[330px] h-[190px]"
                             ></img>
                         </div>
                         <div className="p-2">
-                            <h1 className="font-bold text-xl ">Taskify</h1>
+                            <h1 className="font-bold text-xl ">
+                                Any Time Network
+                            </h1>
 
                             <p className="font-semibold text-sm">
-                                A platform for students to share data and file.{" "}
+                                A platform to display the request from the
+                                users. Also dispaly the particular location and
+                                dashboard of the data.{" "}
                             </p>
 
                             <div className="flex bottom-2 fixed w-[310px]">
@@ -89,7 +94,7 @@ const Work = () => {
                                         className="max-w-[30px]  overflow-hidden rounded-full
                                                     shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             "
                                     >
-                                        <a href="#">
+                                        <a href="https://github.com/Guhansamy/ATN-frontend/tree/master">
                                             <img
                                                 src="https://karuppuchamy.sirv.com/Images/github.png"
                                                 className=""
@@ -120,15 +125,18 @@ const Work = () => {
                                         shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30"
                         >
                             <img
-                                src="https://karuppuchamy.sirv.com/Images/Online-Mechanic-Finder.png"
+                                src="https://karuppuchamy.sirv.com/Images/hidden-harbour.png"
                                 className="w-[330px] h-[190px]"
                             ></img>
                         </div>
                         <div className="p-2">
-                            <h1 className="font-bold text-xl ">Taskify</h1>
+                            <h1 className="font-bold text-xl ">
+                                Hidden Harbour
+                            </h1>
 
                             <p className="font-semibold text-sm">
-                                A platform for students to share data and file.{" "}
+                                An app for users to share questions and receive
+                                answers anonymously, with Perspective API.{" "}
                             </p>
 
                             <div className="flex bottom-2 fixed w-[310px]">
@@ -137,7 +145,7 @@ const Work = () => {
                                         className="max-w-[30px]  overflow-hidden rounded-full
                                                     shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             "
                                     >
-                                        <a href="#">
+                                        <a href="https://github.com/Guhansamy/Hidden-Harbour/tree/master/Hidden-Harbour-Final-main/frontend">
                                             <img
                                                 src="https://karuppuchamy.sirv.com/Images/github.png"
                                                 className=""
@@ -150,7 +158,7 @@ const Work = () => {
                                         className="bg-blue-600 rounded-xl  text-white font-medium hover:shadow-black py-1 px-1
                                                     hover:shadow-lg border border-black "
                                     >
-                                        MERN Stack
+                                        React Native
                                     </button>
                                 </div>
                             </div>

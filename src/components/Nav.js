@@ -1,5 +1,5 @@
-import React from "react";
-// import icons
+import React, { useState, useEffect } from "react";
+// import React, from "react";
 
 import { BiClipboard, BiHomeAlt, BiUser } from "react-icons/bi";
 import {
@@ -14,6 +14,22 @@ import {
 import { Link } from "react-scroll";
 
 const Nav = () => {
+    const [workOffset, setWorkOffset] = useState(
+        window.innerWidth >= 1024 ? 150 : 300
+    );
+
+    useEffect(() => {
+        const handleResize = () => {
+            setWorkOffset(window.innerWidth >= 1024 ? 200 : 300);
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
     return (
         <nav className="fixed bottom-2 lg:bottom-8  w-full overflow-hidden z-50">
             <div className="container mx-auto">
@@ -46,6 +62,7 @@ const Nav = () => {
                         activeClass="active"
                         smooth={true}
                         spy={true}
+                        offset={workOffset}
                         to="work"
                         className="cursor-pointer flex items-center justify-center w-[60px] h-[60px]"
                     >
