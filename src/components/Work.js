@@ -181,10 +181,13 @@ const Work = () => {
                             ></img>
                         </div>
                         <div className="p-2">
-                            <h1 className="font-bold text-xl ">Taskify</h1>
+                            <h1 className="font-bold text-xl ">
+                                Task Management
+                            </h1>
 
                             <p className="font-semibold text-sm">
-                                A platform for students to share data and file.{" "}
+                                A destop based application which is build using
+                                the Java. To display task complition{" "}
                             </p>
 
                             <div className="flex bottom-2 fixed w-[310px]">
@@ -228,10 +231,14 @@ const Work = () => {
                             ></img>
                         </div>
                         <div className="p-2">
-                            <h1 className="font-bold text-xl ">Taskify</h1>
+                            <h1 className="font-bold text-xl ">
+                                Online Mechanic Finder
+                            </h1>
 
                             <p className="font-semibold text-sm">
-                                A platform for students to share data and file.{" "}
+                                A platform to connect the mechanic and drivers
+                                in the rural area. Has the location to point
+                                them.{" "}
                             </p>
 
                             <div className="flex bottom-2 fixed w-[310px]">
