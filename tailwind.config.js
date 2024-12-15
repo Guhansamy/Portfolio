@@ -27,6 +27,8 @@ module.exports = {
                 tech: "#526D82",
                 ml: "#009FBD",
                 django: "#1B9C85",
+                gojoBlue: "#9DF7FF",
+                tanWhite: "A294F9",
             },
             backgroundImage: {
                 site: "url('https://karuppuchamy.sirv.com/Images/site-bg.jpg')",

@@ -6,7 +6,7 @@ const Work = () => {
             <div className="container mx-auto">
                 <div>
                     <div className="text-center">
-                        <h1 className="py-2 text-2xl font-semibold font-primary mb-2">
+                        <h1 className="py-2 text-3xl font-extrabold font-tertiary mb-2">
                             MY PROJECTS
                         </h1>
                     </div>
@@ -25,7 +25,7 @@ const Work = () => {
                         >
                             <img
                                 src="https://karuppuchamy.sirv.com/Images/Taskify.png"
-                                className="w-[330px] h-[190px]"
+                                className="w-[330px] h-[190px] border-2 border-black rounded-xl"
                             ></img>
                         </div>
                         <div className="p-2">
@@ -52,7 +52,7 @@ const Work = () => {
                                 </div>
                                 <div className="">
                                     <button
-                                        className="bg-blue-600 rounded-xl  text-white font-medium hover:shadow-black py-1 px-1
+                                        className="bg-blue-900 rounded-xl  text-white font-medium hover:shadow-black py-1 px-1
                                                     hover:shadow-lg border border-black "
                                     >
                                         MERN Stack
@@ -74,7 +74,7 @@ const Work = () => {
                         >
                             <img
                                 src="https://karuppuchamy.sirv.com/Images/ATN.png"
-                                className="w-[330px] h-[190px]"
+                                className="w-[330px] h-[190px] border-2 border-black rounded-xl"
                             ></img>
                         </div>
                         <div className="p-2">
@@ -104,7 +104,7 @@ const Work = () => {
                                 </div>
                                 <div className="">
                                     <button
-                                        className="bg-blue-600 rounded-xl  text-white font-medium hover:shadow-black py-1 px-1
+                                        className="bg-blue-900 rounded-xl  text-white font-medium hover:shadow-black py-1 px-1
                                                     hover:shadow-lg border border-black "
                                     >
                                         MERN Stack
@@ -126,7 +126,7 @@ const Work = () => {
                         >
                             <img
                                 src="https://karuppuchamy.sirv.com/Images/hidden-harbour.png"
-                                className="w-[330px] h-[190px]"
+                                className="w-[330px] h-[190px] border-2 border-black rounded-xl"
                             ></img>
                         </div>
                         <div className="p-2">
@@ -155,7 +155,7 @@ const Work = () => {
                                 </div>
                                 <div className="">
                                     <button
-                                        className="bg-blue-600 rounded-xl  text-white font-medium hover:shadow-black py-1 px-1
+                                        className="bg-blue-900 rounded-xl  text-white font-medium hover:shadow-black py-1 px-1
                                                     hover:shadow-lg border border-black "
                                     >
                                         React Native
@@ -176,18 +176,17 @@ const Work = () => {
                                         shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30"
                         >
                             <img
-                                src="https://karuppuchamy.sirv.com/Images/Online-Mechanic-Finder.png"
-                                className="w-[330px] h-[190px]"
+                                src="https://karuppuchamy.sirv.com/Images/E-Commerce.png"
+                                className="w-[330px] h-[190px] border-2 border-black rounded-xl"
                             ></img>
                         </div>
                         <div className="p-2">
-                            <h1 className="font-bold text-xl ">
-                                Task Management
-                            </h1>
+                            <h1 className="font-bold text-xl ">E-Commerce</h1>
 
                             <p className="font-semibold text-sm">
-                                A destop based application which is build using
-                                the Java. To display task complition{" "}
+                                Developed an e-commerce website featuring item
+                                display, shopping cart functionality, and secure
+                                login system.{" "}
                             </p>
 
                             <div className="flex bottom-2 fixed w-[310px]">
@@ -196,7 +195,7 @@ const Work = () => {
                                         className="max-w-[30px]  overflow-hidden rounded-full
                                                     shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             "
                                     >
-                                        <a href="#">
+                                        <a href="https://github.com/Guhansamy/Ecommerce">
                                             <img
                                                 src="https://karuppuchamy.sirv.com/Images/github.png"
                                                 className=""
@@ -206,7 +205,7 @@ const Work = () => {
                                 </div>
                                 <div className="">
                                     <button
-                                        className="bg-blue-600 rounded-xl  text-white font-medium hover:shadow-black py-1 px-1
+                                        className="bg-blue-900 rounded-xl  text-white font-medium hover:shadow-black py-1 px-1
                                                     hover:shadow-lg border border-black "
                                     >
                                         MERN Stack
@@ -227,7 +226,7 @@ const Work = () => {
                         >
                             <img
                                 src="https://karuppuchamy.sirv.com/Images/Online-Mechanic-Finder.png"
-                                className="w-[330px] h-[190px]"
+                                className="w-[330px] h-[190px] border-2 border-black rounded-xl"
                             ></img>
                         </div>
                         <div className="p-2">
@@ -247,7 +246,7 @@ const Work = () => {
                                         className="max-w-[30px]  overflow-hidden rounded-full
                                                     shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             "
                                     >
-                                        <a href="#">
+                                        <a href="https://github.com/Guhansamy/Online-Mechanic-Finder">
                                             <img
                                                 src="https://karuppuchamy.sirv.com/Images/github.png"
                                                 className=""
@@ -257,7 +256,7 @@ const Work = () => {
                                 </div>
                                 <div className="">
                                     <button
-                                        className="bg-blue-600 rounded-xl  text-white font-medium hover:shadow-black py-1 px-1
+                                        className="bg-blue-900 rounded-xl  text-white font-medium hover:shadow-black py-1 px-1
                                                     hover:shadow-lg border border-black "
                                     >
                                         MERN Stack

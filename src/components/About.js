@@ -12,17 +12,21 @@ const About = () => {
         threshold: 0.5,
     });
     return (
-        <section className="section lg:pt-32" id="about" ref={ref}>
+        <section
+            className="section lg:pt-32 lg:mb-0 mb-10"
+            id="about"
+            ref={ref}
+        >
             <div className="container mx-auto">
                 <div className="flex flex-col  lg:flex-row lg:items-center lg:gap-x-20  h-screen">
                     <div className="lg:w-[500px] pl-5">
-                        <div className="pb-3 font-primary font-bold text-3xl text-accent">
+                        <div className="pb-3 font-primary font-bold text-3xl lg:mb-3 mb-2 text-accent">
                             Experience
                         </div>
-                        <div className="flex flex-col pb-2">
-                            <div className=" flex flex-row gap-4 align-top text-red-300 font-tertiary">
+                        <div className="flex flex-col pb-3">
+                            <div className=" flex flex-row gap-4 align-top font-extrabold text-green-200 font-tertiary">
                                 <BsCalendar />
-                                Apr 24 - Sept 24 Growbinar
+                                17th Apr - 17th Sept - Growbinar
                             </div>
                             <div className="flex flex-row font-secondary pl-7">
                                 Developed a comprehensive session booking
@@ -32,28 +36,27 @@ const About = () => {
                             </div>
                         </div>
 
-                        <div className="flex flex-col pb-2">
-                            <div className=" flex flex-row gap-4 align-top text-red-300 font-tertiary">
+                        <div className="flex flex-col pb-3">
+                            <div className=" flex flex-row gap-4 align-top font-extrabold text-green-200 font-tertiary">
                                 <BsCalendar />
-                                04/2024 - 09/2024 Growbinar
+                                25th May - 16th July - IIT Bombay
                             </div>
                             <div className="flex flex-row font-secondary pl-7">
-                                Developed a comprehensive session booking
-                                backend using Django, PostgreSQL, and integrated
-                                with Zoom.
+                                Developed a dynamic webpage for disaster
+                                management embedded with the QGIS for geographic
+                                mapping and Graphana for the dashboard
                             </div>
                         </div>
 
                         <div className="flex flex-col">
-                            <div className=" flex flex-row gap-4 align-top text-red-300 font-tertiary">
+                            <div className=" flex flex-row gap-4 align-top font-extrabold text-green-200 font-tertiary">
                                 <BsCalendar />
-                                04/2024 - 09/2024 Growbinar
+                                1st July - 31st Dec - Mprezz
                             </div>
                             <div className="flex flex-row font-secondary pl-7">
-                                Developed a comprehensive session booking
-                                backend using Django, PostgreSQL, and integrated
-                                with Zoom for seamless meeting scheduling and
-                                management.
+                                Built a dynamic web application using ReactJS,
+                                Tailwind CSS, Django, and PostgreSQL, gaining
+                                valuable experience in full-stack development.
                             </div>
                         </div>
                     </div>
@@ -77,7 +80,7 @@ const About = () => {
                         {/* let start 💀 */}
 
                         <div className="lg:py-12 p-10 leading-[2] text-left lg:px-10">
-                            <div className=" font-tertiary text-yellow-400 text-2xl h2">
+                            <div className=" font-tertiary text-green-200 font-bold text-2xl h2">
                                 Skills
                             </div>
                             <div className="">
